@@ -35,7 +35,7 @@ class RAGService:
         self.query_cache_service = query_cache_service  # Optional cache service
 
         # LLM configuration
-        self.model = "gpt-4-turbo-preview"
+        self.model = "gpt-4o"
         self.temperature = 0.1
         self.max_tokens = 1000
 

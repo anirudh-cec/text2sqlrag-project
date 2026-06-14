@@ -65,7 +65,9 @@ dependencies = [
     # Utilities
     "python-dotenv",
     "httpx",
-    "numpy"
+    "numpy",
+    "boto3",
+    "upstash-redis",
 ]
 
 [project.optional-dependencies]
