@@ -87,7 +87,8 @@ class QueryValidator:
     def validate_question(question: str, allow_empty: bool = False) -> str:
         """
         Validate a question string.
-        New changes.
+        New changes.Added
+        
 
         Args:
             question: The question to validate
